@@ -1,0 +1,106 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{Abstract}{v}{chapter*.1}%
+\contentsline {chapter}{Resumen}{vii}{chapter*.2}%
+\contentsline {chapter}{Resum}{ix}{chapter*.3}%
+\contentsline {chapter}{Acknowledgments/Agradecimientos}{xi}{chapter*.4}%
+\contentsline {chapter}{List of Publications}{xiii}{chapter*.5}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Objectives, thesis structure and research contributions}{7}{section.1.1}%
+\contentsline {chapter}{\numberline {2}Preliminaries}{11}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Notation and general results}{11}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Fuzzy sets, membership functions and linguistic variables}{16}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Fuzzy negations, t-norms, t-conorms, uninorms and copulas}{18}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Fuzzy negations}{18}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Triangular norms and triangular conorms}{21}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Uninorms}{28}{subsection.2.3.3}%
+\contentsline {subsubsection}{\numberline {2.3.3.1}Uninorms in $\mathcal {U}_{\min }$ and $\mathcal {U}_{\max }$}{29}{subsubsection.2.3.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.3.2}Idempotent uninorms}{29}{subsubsection.2.3.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3.3}Representable uninorms}{30}{subsubsection.2.3.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Copulas}{30}{subsection.2.3.4}%
+\contentsline {section}{\numberline {2.4}Fuzzy implication functions}{31}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Definition and additional properties}{31}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Families of fuzzy implication functions}{35}{subsection.2.4.2}%
+\contentsline {subsubsection}{\numberline {2.4.2.1}$(S,N)$ and $(U,N)$-implications}{37}{subsubsection.2.4.2.1}%
+\contentsline {subsubsection}{\numberline {2.4.2.2}$R$ and $RU$-implications}{38}{subsubsection.2.4.2.2}%
+\contentsline {subsubsection}{\numberline {2.4.2.3}$QL$ and $D$-implications}{40}{subsubsection.2.4.2.3}%
+\contentsline {subsubsection}{\numberline {2.4.2.4}Yager's $f$ and $g$-generated, $h$ and $k$-implications}{40}{subsubsection.2.4.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.2.5}Probabilistic implications}{44}{subsubsection.2.4.2.5}%
+\contentsline {subsubsection}{\numberline {2.4.2.6}Power-based implications}{45}{subsubsection.2.4.2.6}%
+\contentsline {chapter}{\numberline {3}Characterization of generalized $(h,e)$-implications}{47}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduction}{47}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Definition and additional properties of generalized $(h,e)$-implications}{48}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Representation theorem}{55}{subsection.3.2.1}%
+\contentsline {section}{\numberline {3.3}Generalized Yager's implications}{59}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Generalization of Yager's $f$-generated implications}{59}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Generalization of Yager's $g$-generated implications}{66}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Summary}{75}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Intersections between $(f,g)$ and $(g,f)$-implications}{76}{subsection.3.3.4}%
+\contentsline {section}{\numberline {3.4}Characterizations of $(f,e)$ and $(g,e)$-implications}{77}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Characterizations of $(f,e)$-generated implications}{79}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Characterizations of $(g,e)$-generated implications}{94}{subsection.3.4.2}%
+\contentsline {section}{\numberline {3.5}Representations of $(f,e)$ and $(g,e)$-implications}{96}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Characterizations of generalized $(h,e)$-implications}{98}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Conclusions and future work}{110}{section.3.7}%
+\contentsline {chapter}{\numberline {4}$T$-power invariant implications}{113}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{113}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Strict and nilpotent $T$-power invariant implications}{116}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Strict $T$-power invariant implications}{116}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Nilpotent $T$-power invariant implications}{120}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}Additional properties of strict and nilpotent $T$-power invariant implications}{127}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Additional properties of strict $T$-power invariant implications}{127}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Additional properties of nilpotent $T$-power invariant implications}{152}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Summary}{187}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}Intersections}{188}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Summary}{200}{subsection.4.4.1}%
+\contentsline {section}{\numberline {4.5}Conclusions and future work}{200}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Characterizations of $(S,N)$-implications with a non-continuous negation}{205}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Introduction}{205}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Discussion and previous considerations}{207}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Non-unicity of the t-conorm $S$}{208}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Definition of \ensuremath {\mathfrak {R}_N^*}\xspace for a non-continuous negation $N$}{211}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Towards the construction of a representative}{213}{subsection.5.2.3}%
+\contentsline {section}{\numberline {5.3}Characterization of $(S,N)$-implications for a non-continuous fuzzy negation $N$}{217}{section.5.3}%
+\contentsline {section}{\numberline {5.4}The problem of the completions of t-norms or t-conorms}{221}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Description of the regions of interest when $N$ has only one point of discontinuity and $S$ is a continuous t-conorm}{221}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Duality between the completion problem for pre-t-conorms and pre-t-norms}{226}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}Related bibliography}{230}{subsection.5.4.3}%
+\contentsline {subsection}{\numberline {5.4.4}Simplification to the minimum and continuous Archimedean case}{234}{subsection.5.4.4}%
+\contentsline {subsection}{\numberline {5.4.5}Regions 4 and 8: Cases that are already solved in the literature}{235}{subsection.5.4.5}%
+\contentsline {subsection}{\numberline {5.4.6}The minimum case}{236}{subsection.5.4.6}%
+\contentsline {subsection}{\numberline {5.4.7}Generator of a cancellative pre-t-norm defined above a level curve}{237}{subsection.5.4.7}%
+\contentsline {subsection}{\numberline {5.4.8}The cancellative case}{248}{subsection.5.4.8}%
+\contentsline {subsubsection}{\numberline {5.4.8.1}Region 3: Continuous completions of a continuous, cancellative pre-t-norm defined on $A=[0,1]^2 \setminus (0,a)^2$ with $a \in (0,1)$}{249}{subsubsection.5.4.8.1}%
+\contentsline {subsubsection}{\numberline {5.4.8.2}Region 2: Continuous completions of a continuous, cancellative pre-t-norm defined on $A=[0,1]^2 \setminus (a,1)^2$ with $a \in (0,1)$}{254}{subsubsection.5.4.8.2}%
+\contentsline {subsubsection}{\numberline {5.4.8.3}Remaining regions: Regions 1, 5, 6 and 7}{257}{subsubsection.5.4.8.3}%
+\contentsline {subsection}{\numberline {5.4.9}The conditional cancellative case}{261}{subsection.5.4.9}%
+\contentsline {subsubsection}{\numberline {5.4.9.1}Region 3: Continuous completions of a continuous, conditional cancellative pre-t-norm defined on $A=[0,1]^2 \setminus (0,a)^2$ with $a \in (0,1)$}{261}{subsubsection.5.4.9.1}%
+\contentsline {subsubsection}{\numberline {5.4.9.2}Region 2: Continuous completions of a continuous, conditional cancellative pre-t-norm defined on $A=[0,1]^2 \setminus (a,1)^2$ with $a \in (0,1)$}{270}{subsubsection.5.4.9.2}%
+\contentsline {subsubsection}{\numberline {5.4.9.3}Regions 1, 5 and 7}{282}{subsubsection.5.4.9.3}%
+\contentsline {subsubsection}{\numberline {5.4.9.4}Region 6: Continuous completions of a conditional cancellative pre-t-norm defined on $B=[0,1]^2 \setminus (a,1)^2 \cup \{c\} \times [0,1] \cup [0,1] \times \{c\}$}{286}{subsubsection.5.4.9.4}%
+\contentsline {subsection}{\numberline {5.4.10}Summary}{325}{subsection.5.4.10}%
+\contentsline {section}{\numberline {5.5}Second characterization of $(S,N)$-implications}{325}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}$N$ has one point of discontinuity and $S$ is the maximum t-conorm}{328}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}$N$ has one point of discontinuity and $S$ is a continuous \newline Archimedean t-conorm}{330}{subsection.5.5.2}%
+\contentsline {subsubsection}{\numberline {5.5.2.1}$N$ has one point of discontinuity and $S$ is a strict t-conorm}{330}{subsubsection.5.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.5.2.2}$N$ has one point of discontinuity and $S$ is a nilpotent t-conorm}{333}{subsubsection.5.5.2.2}%
+\contentsline {subsection}{\numberline {5.5.3}A promising corollary towards considering a fuzzy negation with a numerable set of discontinuities}{337}{subsection.5.5.3}%
+\contentsline {section}{\numberline {5.6}Conclusions and future work}{340}{section.5.6}%
+\contentsline {chapter}{\numberline {6}A new approach to subgroup discovery based on fuzzy implications}{345}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Introduction}{345}{section.6.1}%
+\contentsline {section}{\numberline {6.2}The setting: Introducing fuzzy implication functions in subgroup discovery}{349}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Rule's modeling}{349}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}A new perspective of fuzzy subgroups as generalization of crisp subgroups}{351}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}Quality measures}{355}{subsection.6.2.3}%
+\contentsline {subsection}{\numberline {6.2.4}Pruning: Optimistic estimates}{361}{subsection.6.2.4}%
+\contentsline {section}{\numberline {6.3}Selection of an adequate pair $(I,T)$}{363}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Proposed SD algorithms}{369}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Top-$k$ $FWRAcc$ subgroups with fuzzy implication functions and optimistic estimate}{371}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2}Top-$k$ $FWRAcc$ subgroups with fuzzy implication functions and example weighting}{372}{subsection.6.4.2}%
+\contentsline {section}{\numberline {6.5}Sharp transitions}{377}{section.6.5}%
+\contentsline {section}{\numberline {6.6}Experimental results}{378}{section.6.6}%
+\contentsline {subsection}{\numberline {6.6.1}A general discussion on the selection of different fuzzy partitions and operators}{380}{subsection.6.6.1}%
+\contentsline {subsection}{\numberline {6.6.2}A case study: The United States Elections}{391}{subsection.6.6.2}%
+\contentsline {section}{\numberline {6.7}Conclusions and future work}{403}{section.6.7}%
+\contentsline {chapter}{\numberline {7}Conclusions and future outlook}{407}{chapter.7}%
+\contentsline {chapter}{Bibliography}{413}{chapter*.72}%

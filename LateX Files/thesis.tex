@@ -1,0 +1,319 @@
+%%% ----- Document ----- %%
+\documentclass[
+    %uninadraft,
+    colorlinks, 
+    %blacklinks,
+    %palatino,
+    libertine,
+    %mathpazo,
+    %tgschola,
+    %tgscholamathpazo,
+    %alegreya
+]{uninathesis}
+
+
+%%% Add this %%%
+\usepackage{titlesec}
+%\titleformat{\chapter}[display]
+%{\normalfont\huge\bfseries}{\chaptertitlename~\thechapter}{20pt}{\Huge}
+%\titlespacing*{\chapter}{0pt}{50pt}{40pt}
+\titlespacing*{name=\chapter,numberless}{0pt}{10pt}{30pt}
+%%%   End   %%%
+
+\usepackage{fancyhdr}
+
+%\AtBeginDocument{\addtocontents{toc}{\protect\thispagestyle{empty}}} %remove page number from toc
+
+\usepackage[english]{babel}
+\addto\captionsenglish{% Replace "english" with the language you use
+  \renewcommand{\contentsname}%
+    {\sffamily Contents}%
+}
+
+% For subsubsections
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{3}
+
+\usepackage{float}
+\usepackage{pdflscape}
+\usepackage{anyfontsize}
+
+\usepackage[utf8]{inputenc}
+%\DeclareUnicodeCharacter{221E}{\ensuremath{\infty}}
+
+% Math
+\RequirePackage{mathtools}
+\RequirePackage{mathrsfs} %need this for mathscr
+\let\openbox\relax
+\RequirePackage{amsthm}
+\RequirePackage{stmaryrd} %for \llbracket
+\usepackage{bbm}
+\usepackage{bm}
+%\usepackage{amssymb}
+
+%% Theorems and propositions %%
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[chapter]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+%\theoremstyle{remark}
+%\newtheorem{remark}{Remark}
+%\theoremstyle{definition}
+%\newtheorem{definition}{Definition}[chapter]
+%\theoremstyle{theorem}
+
+% Histogram
+\usepackage{filecontents}
+\usepackage{pgfplotstable}
+\usepgfplotslibrary{statistics}
+
+% Colors
+\usepackage{xcolor}
+\usepackage{colortbl}
+\definecolor{forestgreen}{rgb}{0.13, 0.55, 0.13}
+\definecolor{MyBlue}{rgb}{0.4, 0.6, 0.8}
+\definecolor{RRed}{RGB}{255,8,3}
+\definecolor{DBlue}{RGB}{0,0,255}
+\definecolor{CPurple}{RGB}{128,4,129}
+
+% Subtheorems %
+\newcounter{subtheorems}[theorem]
+\renewcommand{\thesubtheorems}{\thetheorem.\arabic{subtheorems}}
+\setcounter{subtheorems}{0}
+\newtheorem{subproposition}[subtheorems]{Proposition}
+\newtheorem{subcorollary}[subtheorems]{Corollary}
+\newtheorem{subremark}[subtheorems]{Remark}
+\newtheorem{sublemma}[subtheorems]{Lemma}
+\newtheorem{subdefinition}[subtheorems]{Definition}
+\newtheorem{subexample}[subtheorems]{Example}
+\definecolor{comment}{rgb}{0.858, 0.188, 0.478}
+
+% Tikz - may be removed if unneeded
+\RequirePackage{tikz}
+\RequirePackage{pgfplots}
+\pgfplotsset{compat=1.16}
+\usetikzlibrary{positioning,automata,calc,fit,shapes,backgrounds,arrows.meta}
+\usepackage{makecell}
+
+% Table
+\usepackage{diagbox}
+%\usepackage{subcaption}
+
+% Fix pdf tables
+\usepackage{nicematrix}
+
+% Miscellanea Packages
+\usepackage{ marvosym } %/Lightning
+%\usepackage{ stmaryrd } %/lightning
+%\usepackage[htt]{hyphenat}
+\usepackage{caption}
+\usepackage{subcaption} %subfigures
+\usepackage{hyperref}
+%%% Macros Path
+\input{_utils/macro.tex} %can write your macros here
+
+
+%%% Graphics Path
+\graphicspath{{./_figures/}}
+\DeclareGraphicsExtensions{.pdf,.jpeg,.png}
+\usepackage[multidot]{grffile}
+
+% Bibliography
+\RequirePackage{csquotes}
+\usepackage[sorting=nyt,backend=biber,maxcitenames=10,style=ieee,giveninits=true,citestyle=numeric-comp,backref=true]{biblatex} %dashed=false to remove dashes on repeated authors.
+\addbibresource{_bib/thesisbibliography.bib} %bib database(s)
+\usepackage{bibentry}
+
+%custom hyphenation
+\hyphenation{ERTMS/ETCS}
+
+\usepackage[title,titletoc]{appendix}
+\usepackage{pdfpages}
+
+\begin{document}
+
+%%% ----- Coberta ----- %%%
+
+\includepdf[pages=1-1]{./Coberta/cobertaUIBsans}
+
+\thispagestyle{empty}
+
+\newpage $\ $
+
+%%% ----- Portada ----- %%%
+
+\frontmatter
+
+\includepdf[pages=1-1]{./Portada/portadaUIBsans}
+\newpage $\ $
+
+\thispagestyle{empty}
+
+
+\newpage $\ $
+
+%%% ----- Dedication ----- %%%
+
+\thispagestyle{empty}
+
+\vspace*{2 in}
+
+\begin{flushright}
+	\textit{A Leo y Paco.}
+\end{flushright}
+
+\newpage $\ $
+
+\thispagestyle{empty}
+
+%%% ----- Abstract ----- %%%
+\input{_chapters/0-abstract.tex}
+
+%%% ----- Acknowledgments ----- %%%
+
+\chapter*{Acknowledgments/Agradecimientos}
+\addcontentsline{toc}{chapter}{Acknowledgments/Agradecimientos}
+
+A lo largo del camino hasta aquí, he tenido la suerte de contar con el apoyo de mucha gente. Me gustaría agradecer a todos ellos ya que, de una manera u otra, me han ayudado a lograr este objetivo.
+
+Primer de tot, vull agrair als meus directors de tesi, Arnau i Sebastià. No només m'han ajudat a tirar aquest ambiciós projecte endavant, sinó que a més sempre ho han fet des d'un tracte proper. Gràcies per tot el temps que heu invertit, per sempre valorar la meva feina, per motivar-me a fer-ho sempre el millor possible i, en general, per tot el que m'heu ensenyat durant aquests anys. Especialment, vull donar les gràcies a en Sebastià per apostar per jo d'ençà que el vaig tenir de professor a primer de carrera. No es pot entendre la meva encara curta carrera com investigadora sense el seu suport i ajuda constants durant aquests nou anys.
+
+Gràcies a tots els membres del meu grup d'investigació, SCOPIA, pels bons moments, el seu suport i per fer-me sentir sempre part de l'equip. Per descomptat, també per haver-me deixat ocupar el seminari del grup com el meu despatx personal durant aquests quatre anys.
+
+M'agradaria recalcar l'important paper dels professors del Grau de Matemàtiques en aquesta història. Realment, vaig entrar a la carrera sense tenir les idees gens clares, amb el sentiment d'haver-me tirat a una piscina que no sabia si estava plena. Malgrat això, des del primer curs em va apassionar aquest nou món que havia descobert. I això és degut a la gran feina de tots els professors que vaig tenir, que em varen ensenyar a estimar les matemàtiques i em varen motivar a voler dedicar-me a la investigació. Gràcies a tots aquells que sempre tengueren la porta oberta per una tutoria o un dubte, que valoraren positivament els meus progressos, que em motivaren a fer una bona feina, i que es varen esforçar per transmetre els coneixements d'una assignatura el millor possible.
+
+También quiero agradecer a Antonio Gómez Corral, bajo la tutela del cual ya me pude iniciar en la investigación durante mis estudios de máster en la UCM. Muchos de los consejos que me dio durante esa época me han acompañado durante mi etapa de doctorado.
+
+I would like to thank Dr. Balasubramaniam Jayaram for welcoming me with open arms during my research stay at IIT Hyderabad. The time I spent there not only helped me to start developing the results of the last chapter of my thesis, but his mentoring made me see things from a different perspective and let me grow as a researcher. Also, to Kavit, Megha and Priyanka for accompanying me on that adventure.
+
+To Dr. Michał Baczyński, who has always shared his thoughts and advice the times we have crossed paths at a conference or during his visits to my university.
+
+Special thanks go to Dr. Andrea Mesiarová-Zemánková for showing interest in collaborating on the problem of the completion of t-norms from the very beginning. Her explanations, examples and ideas during these four years have been crucial to the contributions in Chapter 5.
+
+Als meus companys amb els quals he compartit el meu dia a dia durant el doctorat, Tomás, Iván, Mar, Onofre, Marco, Toni, Jordi, Biel i Cris. Al vostre costat el camí s'ha fet menys dur i molt més divertit.
+
+A Ignasi y Lluís, por recordarme lo importante que es no dejar de hacerse preguntas y ofrecerme una mesa en Protofy siempre que he pasado por Barcelona.
+
+Als meus amics de tota la vida, Agus, Alberto, Albertito, Dani, David, Luci, Marga, Maria, Marina, Marta, Nadine, Salva i Sara. Tenc molta sort de tenir-vos al meu costat, gràcies per tan bons moments, però també per sempre ajudar-me a tirar endavant en els moments feixucs. Esper que mai deixem de formar aquesta gran família.
+
+A Lucas, por sus ánimos y apoyo incondicional en esta época de mi vida que ha sido como una montaña rusa, al menos siempre ha sido a tu lado.
+
+A mis hermanos Alejandro y Antonio y a mis tíos Manolo, Antonio, Javi y Juana, gracias por el apoyo que me habéis dado durante estos años. 
+
+Finalmente, quiero dedicar esta tesis a mis padres, porque durante toda mi vida han confiado en mí y siempre me han hecho creer que con esfuerzo podía conseguir lo que me propusiese. Sus valores y enseñanzas me han servido para llegar hasta aquí más que los de nadie.
+
+\vspace{0.5cm}
+
+\noindent \textbf{Financiación}\\
+
+\noindent Esta investigación ha contado con la siguiente financiación:
+\begin{itemize}
+	\item La beca FPU18/05664 financiada por el Ministerio de Ciencia, Innovación y Universidades de España.
+	\item La beca Movilidad EDUIB - Santander 21-22 financiada por la Escuela de Doctorado de la Universidad de las Islas Baleares y el Banco Santander.
+	\item El proyecto PID2020-113870GB-I00 financiado por la Agencia Estatal de Investigación y del Ministerio de Ciencia e Innovación de España.
+	\item El proyecto AEI/TIN2016-75404-P financiado por el Ministerio de Economía, Industria y Competitividad de España.
+\end{itemize}
+
+
+%%% ----- List of Publications ----- %%%
+\pagestyle{backmatter}
+\chapter*{List of Publications}
+\addcontentsline{toc}{chapter}{List of Publications}
+
+\textbf{Published Journal Papers:}
+%%% Journal Papers %%%
+\begin{itemize}
+	\item \fullcite{Fernandez-Peralta2021}
+	\item \fullcite{Fernandez-Peralta2021B}
+	\item \fullcite{Fernandez-Peralta2022C}
+	\item \fullcite{Fernandez-Peralta2022B}
+	\item \fullcite{Fernandez-Peralta2022}
+	\item \fullcite{Fernandez-PeraltaSub}
+\end{itemize}
+
+\noindent \textbf{Submitted Journal Papers:}
+
+\begin{itemize}
+	\item \fullcite{Fernandez-PeraltaSubB}
+	\item \fullcite{Fernandez-PeraltaSubC}
+\end{itemize}
+
+\pagebreak
+
+\noindent \textbf{Full Papers in Conference Proceedings:}
+%%% Proceedings %%%
+\begin{itemize}
+	\item \fullcite{Fernandez-Peralta2018}
+	\item \fullcite{Fernandez-Peralta2020}
+	\item \fullcite{Baczynski2022}
+	\item \fullcite{Fernandez-PeraltaSubCongC}
+\end{itemize}
+
+\noindent \textbf{Abstracts in Conference Proceedings:}
+\begin{itemize}
+	\item \fullcite{Fernandez-Peralta2019}
+	\item \fullcite{Fernandez-Peralta2021C}
+	\item \fullcite{Fernandez-Peralta2022D}
+	\item \fullcite{Fernandez-PeraltaSubCongA}
+	\item \fullcite{Fernandez-PeraltaSubCongB}
+\end{itemize}
+    
+    \clearpage
+    %%% ----- Table of contents ----- %%%
+    \tableofcontents
+    
+    %%% ----- List of figures ----- %%%
+    \listoffigures
+    
+    %%% ----- List of tables ----- %%%
+    \listoftables
+    
+    %%% ----- List of Algorithms ----- %%%
+    \listofalgorithms
+	
+	%%% Book main matter
+    \mainmatter
+    \newpage\pagestyle{main}
+    %%% Chapter 1
+    \chapter{Introduction}\label{chapter:introduction}
+    \input{_chapters/chapter_01_introduction.tex}
+    %%% Chapter 2
+    \chapter{Preliminaries}\label{chapter:preliminaries}
+    \input{_chapters/chapter_02_preliminaries.tex}
+	%%% Chapter 3
+	\chapter{Characterization of generalized $(h,e)$-implications}\label{chapter:heimplications}
+	\input{_chapters/chapter_03_heimplications.tex}
+	%%% Chapter 4
+	\chapter{$T$-power invariant implications}\label{chapter:tpowerinvariant}
+	\input{_chapters/chapter_04_tpowerinvariant.tex}
+	%%% Chapter 5
+	\chapter[Characterizations of $(S,N)$-implications with a non-continuous negation]{Characterizations of $(S,N)$-implications with a non-continuous negation through the completion of t-norms}\label{chapter:chsnimplications}
+	\input{_chapters/chapter_05_snimplications.tex}
+	%%% Chapter 6	
+	\chapter[A new approach to subgroup discovery based on fuzzy implications]{A new approach to subgroup discovery based on fuzzy implication functions}\label{chapter:sd}
+	\input{_chapters/chapter_06_sd.tex}
+	%%% Chapter 7
+	\chapter{Conclusions and future outlook}\label{chapter:conclusions}
+	\input{_chapters/chapter_07_conclusions.tex}
+
+    \newpage
+    %%% Book back matter
+    \backmatter
+    
+    %%% ----- Bibliography ----- %%%
+    
+    %%% References
+    
+	\pagestyle{backmatter}
+    \printbibliography[heading=bibintoc]
+
+                                     
+   
+    %\listoffigures
+    %\listoftables
+
+\end{document}

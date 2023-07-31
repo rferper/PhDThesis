@@ -1,0 +1,44 @@
+\babel@toc {english}{}\relax 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces A decreasing function (left) and increasing function (right) together with their respective pseudo-inverses (pink graphs).\relax }}{14}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Conceptual example of a linguistic variable ``Price Coffee''.\relax }}{18}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Plot of $N^{\lambda }$ for $\lambda \in \{-100,-10,-1,0,0.5,0.75,0.9,0.99\}$.\relax }}{20}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Plots of basic t-norms presented in Table \ref {table:basic_tnorms}.\relax }}{23}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Plots of basic t-conorms presented in Table \ref {table:basic_toconorms}.\relax }}{24}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Plots of basic fuzzy implication functions presented in Table \ref {table:basic_implications}.\relax }}{36}{figure.caption.20}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Plot of a generalized $(h,e)$-implication for different values of $e$.}}{55}{figure.caption.21}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Plot of a generalized $(h,e)$-implication constructed via the horizontal threshold method jointly with the two fuzzy implication functions that act as generators.}}{58}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Plot of an $(f,e)$ and a $(g,e)$-implication}}{79}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Plot of the fuzzy implication function $I_{\bf RC}^e$ with $e=\frac {1}{4}$ jointly with two of its $\varphi $-pseudo conjugates.\relax }}{98}{figure.caption.26}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Plot of $h(a)=a_T^{(r)}$ for all $r \in \{\frac {1}{16},\frac {1}{8},\frac {1}{4},\frac {1}{2},2,4,8,16\}$ for the cases $T \in \{\ensuremath {T_{\bm {P}}}\xspace ,\ensuremath {T_{\bm {LK}}}\xspace \}$. Stressers are colored in purple and depressers in teal.\relax }}{114}{figure.caption.27}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Plot of two examples of strict $T$-power invariant implications.}}{120}{figure.caption.28}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Schema of the structure of the family of strict and nilpotent $T$-power invariant implications.\relax }}{125}{figure.caption.29}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Plot of an example of a nilpotent $T$-power invariant implication.}}{126}{figure.caption.30}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Schema of the structure of strict $T$-power invariant implications that satisfy {\bf (NP)}\xspace , {\bf (NP$_{\bm {e}}$)}\xspace , {\bf (IP)}\xspace and {\bf (OP)}\xspace }}{132}{figure.caption.31}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Schema of the structure of strict $T$-power invariant implications that satisfy {\bf (EP)}\xspace .}}{139}{figure.caption.32}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Plots of three strict $T$-power invariant implications that satisfy {\bf (EP)}\xspace .}}{140}{figure.caption.33}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Plot of a strict and a nilpotent $T$-power invariant implication.}}{155}{figure.caption.34}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Schema of the structure of nilpotent $T$-power invariant implications that satisfy {\bf (EP)}\xspace .}}{178}{figure.caption.35}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Plot of five nilpotent $\ensuremath {T_{\bm {LK}}}\xspace $-power invariant implications that satisfy {\bf (EP)}\xspace .}}{179}{figure.caption.36}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Schema of the structure of $I_{\alpha }^T$.\relax }}{187}{figure.caption.37}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Plot of the fuzzy implication function $I^T_{\alpha }$ where $T=\ensuremath {T_{\bm {LK}}}\xspace $ for different values of the parameter $\alpha $.\relax }}{188}{figure.caption.38}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Schema of the structure of two t-conorms that generate the same $(S,N)$-implication.}}{209}{figure.caption.41}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Graphical example of the pseudo-inverse and a quasi-inverse of a decreasing function.}}{212}{figure.caption.42}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Two graphical examples of a fuzzy negation with one point of discontinuity and the corresponding region $(\Ran N \times [0,1])\cup (([0,1] \setminus \Ran N) \times \Ran N)$ in gray.\relax }}{222}{figure.caption.43}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Regions (in gray) where we can uniquely determine the t-conorm S of an $(S,N)$-implication $I$ if we assume that the corresponding t-conorm is continuous and the negation has only one point of discontinuity.\relax }}{225}{figure.caption.45}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces A graphical example of a fuzzy negation with three points of discontinuity and the corresponding region $(\Ran N \times [0,1]) \cup (([0,1] \setminus \Ran N) \times \Ran N)$ in gray.\relax }}{226}{figure.caption.46}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Subregions of $[0,1]^2$ that are either a set of uniqueness (magenta) or not a set of uniqueness (green). The regions for which the corresponding result is only valid for strict t-norms have been marked with an ``$S$'' in the upper left corner. The regions for which the corresponding continuous completions are known have been marked with a ``$C$'' in the upper right corner.\relax }}{233}{figure.caption.47}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Regions (in gray) in which the pre-t-norms of interest for the problem of the characterization of $(S,N)$-implications are defined, if we assume that the corresponding t-conorm $S$ is continuous and the negation $N$ has only one point of discontinuity. In blue, a region of the type $[0,1]^2 \setminus (d,1)^2$ for some $d \in (0,1)$ and in green a region of the type $[0,1]^2 \setminus (0,e)^2$ for some $e \in (0,1)$.\relax }}{258}{figure.caption.48}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Plot of the additive generator in Equation (\ref {eq:additivegenerator_excompletions}) for different values of admissible parameters (top) with the corresponding nilpotent t-norm (bottom).\relax }}{281}{figure.caption.49}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Plot of the additive generator in Equation (\ref {eq:ExapleGenGen(v)}) and the corresponding t-norm where $t_1$ and $t_2$ are defined in Equation (\ref {eq:examplet1t2}) with $\gamma =3$, $x_1=0.82$, $\beta =6$ and $x_2=0.9$.\relax }}{325}{figure.caption.50}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Plots of the $AvFWRAcc$ and the computation time in seconds ($Ctime$) with respect to the minimum $FCoverage$ ($\alpha $) obtained when executing the algorithms SDFIOE and GSDFIW for the dataset WPBC, with a uniform fuzzy partition with three fuzzy sets with triangular membership functions for the numeric variables, $I=\ensuremath {I_{\bm {GD}}}\xspace $, $T=\ensuremath {T_{\bm {M}}}\xspace $, $MaxFeatures =5$, $k=10$ and $\lambda = 0.7$.\relax }}{382}{figure.caption.55}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Plots of the $AvSharpness$, the computation time in seconds ($Ctime$) and the number of transitions ($NTransitions$) with respect to the minimum $FCoverage$ ($\alpha $) obtained when executing the algorithm STFI for the dataset WPBC, with a uniform fuzzy partition with three fuzzy sets with triangular membership functions for the numeric variables, $I=\ensuremath {I_{\bm {GD}}}\xspace $, $T=\ensuremath {T_{\bm {M}}}\xspace $ and $MaxFeatures =5$.\relax }}{383}{figure.caption.56}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Plots of the computation time in seconds obtained when executing SDFIOE+WCSDFI and STFI, with a FCM partition for the numeric variables, $I=\ensuremath {I_{\bm {GG}}}\xspace $, $T=\ensuremath {T_{\bm {P}}}\xspace $, $\alpha =0.1$, $MaxFeatures =5$, $(\tilde {k},k)=(1000,10)$ and $\lambda = 0.85$ for the seven databases of Table \ref {table:databases}.\relax }}{391}{figure.caption.62}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Schema of the fuzzy partition designed for the linguistic variable \textit {Voters}.\relax }}{393}{figure.caption.64}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Box plot of the variables ``Asians'' and ``Density'' of the database USA2012.\relax }}{398}{figure.caption.67}%
+\addvspace {10\p@ }

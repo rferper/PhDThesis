@@ -1,0 +1,136 @@
+%double quote command
+\newcommand\dquote[1]{``#1''}
+\newcommand\dquoteit[1]{``\emph{#1}''}
+
+%single quote command
+\newcommand\squote[1]{`#1'}
+\usepackage{xspace}
+%% Math general commands %%
+\newcommand{\NN}{\ensuremath{\mathbb{N}}\xspace}
+\newcommand{\ZZ}{\ensuremath{\mathbb{Z}}\xspace}
+\newcommand{\QQ}{\ensuremath{\mathbb{Q}}\xspace}
+\newcommand{\QQlone}{\ensuremath{\mathbb{Q} \cap [0,1]}\xspace}
+\newcommand{\RR}{\ensuremath{\mathbb{R}}\xspace}
+\DeclareMathOperator{\Dom}{Dom}
+\DeclareMathOperator{\Ran}{Ran}
+\DeclareMathOperator{\Ima}{Ran}
+\newcommand\restr[2]{\ensuremath{\left.#1\right|_{#2}}}
+
+
+%% Properties of fuzzy implications functions %%
+\newcommand{\Ione}{{\bf(I1)}\xspace}
+\newcommand{\Itwo}{{\bf(I2)}\xspace}
+\newcommand{\Ithree}{{\bf(I3)}\xspace}
+\newcommand{\RP}{{\bf(RP)}\xspace}
+\newcommand{\Rone}{{\bf(R1)}\xspace}
+\newcommand{\Rtwo}{{\bf(R2)}\xspace}
+
+\newcommand{\NP}{{\bf(NP)}\xspace}
+\newcommand{\EP}{{\bf(EP)}\xspace}
+\newcommand{\IP}{{\bf(IP)}\xspace}
+\newcommand{\OP}{{\bf(OP)}\xspace}
+\newcommand{\CB}{{\bf(CB)}\xspace}
+\newcommand{\IB}{{\bf(IB)}\xspace}
+\newcommand{\LF}{{\bf(LF)}\xspace}
+\newcommand{\LT}{{\bf(LT)}\xspace}
+\newcommand{\CPN}{{\bf(CP(N))}\xspace}
+\newcommand{\LCP}{{\bf(L$\mhyphen$CP)}\xspace}
+\newcommand{\RCPN}{{\bf(R$\mhyphen$CP)}\xspace}
+\newcommand{\LI}{{\bf(LI$_{\bm{T}}$)}\xspace}
+\newcommand{\NPe}{{\bf(NP$_{\bm{e}}$)}\xspace}
+\newcommand{\TC}{{\bf(TC)}\xspace}
+\newcommand{\PIT}{{\bf(PI$_{\bm{T}}$)}\xspace}
+\newcommand{\DST}{{\bf(D$\mhyphen$ST)}\xspace}
+\newcommand{\DTS}{{\bf(D$\mhyphen$TS)}\xspace}
+\newcommand{\DTT}{{\bf(D$\mhyphen$TT)}\xspace}
+\newcommand{\DSS}{{\bf(D$\mhyphen$SS)}\xspace}
+\newcommand{\LIey}{{\bf(LI$_{\bm{T}}$)$_{\bm{x},\bm{ey}}$}\xspace}
+\newcommand{\LIex}{{\bf(LI$_{\bm{T}}$)$_{\bm{ex},\bm{y}}$}\xspace}
+\newcommand{\MTC}{{\bf(MTC)}\xspace}
+%
+%% Main Operators %%
+\newcommand{\NDOne}{\ensuremath{N_{\bm{D_1}}}\xspace}
+\newcommand{\NDTwo}{\ensuremath{N_{\bm{D_2}}}\xspace}
+\newcommand{\NC}{\ensuremath{N_{\bm{C}}}\xspace}
+\newcommand{\TP}{\ensuremath{T_{\bm{P}}}\xspace}
+\newcommand{\TD}{\ensuremath{T_{\bm{D}}}\xspace}
+\newcommand{\SD}{\ensuremath{S_{\bm{D}}}\xspace}
+\newcommand{\SP}{\ensuremath{S_{\bm{P}}}\xspace}
+\newcommand{\SM}{\ensuremath{S_{\bm{M}}}\xspace}
+\newcommand{\TM}{\ensuremath{T_{\bm{M}}}\xspace}
+\newcommand{\IYG}{\ensuremath{I_{\bm{YG}}}\xspace}
+\newcommand{\IRC}{\ensuremath{I_{\bm{RC}}}\xspace}
+\newcommand{\IRS}{\ensuremath{I_{\bm{RS}}}\xspace}
+\newcommand{\ILK}{\ensuremath{I_{\bm{LK}}}\xspace}
+\newcommand{\TLK}{\ensuremath{T_{\bm{LK}}}\xspace}
+\newcommand{\IGD}{\ensuremath{I_{\bm{GD}}}\xspace}
+\newcommand{\IGG}{\ensuremath{I_{\bm{GG}}}\xspace}
+\newcommand{\IKD}{\ensuremath{I_{\bm{KD}}}\xspace}
+\newcommand{\IWB}{\ensuremath{I_{\bm{WB}}}\xspace}
+\newcommand{\IFD}{\ensuremath{I_{\bm{FD}}}\xspace}
+\newcommand{\ILT}{\ensuremath{I_{\bm{Lt}}}\xspace}
+\newcommand{\IGT}{\ensuremath{I_{\bm{Gt}}}\xspace}
+%% Commands for tables %%
+\usepackage{cellspace} 
+\setlength{\cellspacetoplimit}{4pt}
+\setlength{\cellspacebottomlimit}{3pt}
+\usepackage{adjustbox}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{array}
+\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
+\usepackage{pifont}% http://ctan.org/pkg/pifont
+\newcommand{\cmark}{\ding{51}}%
+\newcommand{\xmark}{\ding{55}}%
+%\vglue -0.6cm
+\def\mystrut(#1,#2){\vrule height #1 depth #2 width 0pt}
+\newcolumntype{C}[1]{%
+	>{\mystrut(3ex,2ex)\centering}%
+	p{#1}%
+	<{}}
+
+%% Commands Chapter 4 %%
+\newcommand{\IT}{\ensuremath{I^T_{\varphi,f,g}}\xspace}
+\newcommand{\STP}{strict $T$-power invariant implication\xspace}
+\newcommand{\PHI}[2]{\ensuremath{\varphi \left(\frac{t(#1)}{t(#2)}\right)}}
+
+%% Commands Chapter 5 %%
+\newcommand{\RN}{\ensuremath{\mathfrak{R}_N^*}\xspace}
+\newcommand{\RNI}{\ensuremath{\mathfrak{R}_{N_I}^*}\xspace}
+\newcommand{\SIN}{\ensuremath{S_{I,N}}\xspace}
+\newcommand{\at}[1]{a_{T_A}^{(#1)}}
+\newcommand{\T}{T_A}
+\newcommand{\TA}{\ensuremath{T_A}\xspace}
+\newcommand{\TAStar}{\ensuremath{T_{A^*}}\xspace}
+\newcommand{\TB}{\ensuremath{T_B}\xspace}
+\newcommand{\NTA}{\ensuremath{N_{T_A}}\xspace}
+\newcommand{\NTB}{\ensuremath{N_{T_B}}\xspace}
+\newcommand{\bt}[1]{b_{T_A}^{(#1)}}
+\newcommand{\ct}[1]{c_{T_B}^{(#1)}}
+\mathchardef\mhyphen="2D
+\newcommand{\xtn}[2]{#1_{T_A}^{(#2)}}
+\newcommand{\xtnB}[2]{#1_{T_B}^{(#2)}}
+\newcommand{\xtnf}[2]{#1_{T_A}^{(\frac{1}{#2})}}
+\newcommand{\xtq}[3]{#1_{T_A}^{(\frac{#2}{#3})}}
+
+% Bold symbols
+\newcommand{\bs}[1]{\boldsymbol{#1}}
+\newcommand{\mc}[1]{\mathcal{#1}}
+
+%% Color Comments %%
+\newcommand{\RFc}[1]{\textcolor{cyan}{#1}}
+\newcommand{\New}[1]{\textcolor{violet}{#1}}
+
+\usepackage[normalem]{ulem}
+\setlength{\fboxsep}{0pt}%
+\setlength{\fboxrule}{1pt}%
+
+%%% Continuous footnote numbering
+\usepackage{chngcntr}
+\counterwithout{footnote}{chapter}
+\interfootnotelinepenalty=10000
+
+%%% Change separation between number and caption in list of figures and tables
+\makeatletter
+\renewcommand*\l@figure{\@dottedtocline{1}{1em}{3em}}
+\renewcommand*\l@table{\@dottedtocline{1}{1em}{3em}}
